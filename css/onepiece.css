@@ -8,7 +8,7 @@
 
  #left {
      background-position: 50% 40%;
-     background-color: #5CB6E7;
+     background-color: #00cc99;
      background-image: url('../img/foreign_parts_left.png');
      width: 50%;
      height: 100%;
@@ -28,23 +28,6 @@
      background-image: url('../img/bg_dot.jpg');
      padding-top: 40px;
      width: 100%;
- }
-
- @media (max-width: 768px) {
-     #left {
-         display: none;
-     }
-     #right {
-         width: 100%;
-         top: 0;
-         left: 0;
-     }
-     #right .mobile {
-         width: 70%;
-     }
-     .footer {
-        display: inline;
-    }
  }
 
  #right img {
@@ -68,7 +51,7 @@
  }
 
  table th {
-     background-color: #5CB6E7;
+     background-color: #00cc99;
      border: 1px solid #bbbbbb;
      padding: 15px;
  }
@@ -92,4 +75,19 @@
      opacity: .7;
  }
 
- 
+ @media (max-width: 768px) {
+     #left {
+         display: none;
+     }
+     #right {
+         width: 100%;
+         top: 0;
+         left: 0;
+     }
+     #right .mobile {
+         width: 70%;
+     }
+     .footer {
+         display: inline;
+     }
+ }
