@@ -58,12 +58,12 @@
 
  .contentText {
      text-align: left;
-     /* background-color: #000; */
  }
 
  #right .footer {
      text-align: left;
-     width: 80%;
+     /* width: 80%; */
+     padding: 20px 70px;
      margin: 0 auto;
  }
 
